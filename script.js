@@ -10,7 +10,7 @@ class Animal {
 	}
 
 	makeSound(species){
-		return `The ${species} makes a sound`;
+		console.log( `The ${species} makes a sound`);
 	}
 }
 
@@ -19,7 +19,7 @@ class Dog extends Animal {
 		super(species);
 	}
 	bark(){
-		return "woof";
+		console.log("woof");
 	}
 }
 
@@ -28,7 +28,7 @@ class Cat extends Animal {
 		super(species);
 	}
 	purr(){
-		return "purr";
+		console.log("purr");
 	}
 }
 
